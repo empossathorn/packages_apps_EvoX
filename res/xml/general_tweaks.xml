@@ -16,6 +16,10 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/general_tweaks_title">
 
+    <Preference
+        android:title="@string/app_ops_settings"
+        android:fragment="com.android.settings.applications.AppOpsSummary"/>
+
     <com.extra.settings.preferences.SystemSettingSwitchPreference
         android:key="sensor_block"
         android:title="@string/sensor_block_title"
