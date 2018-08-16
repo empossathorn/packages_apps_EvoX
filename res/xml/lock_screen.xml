@@ -27,4 +27,10 @@
         android:title="@string/lock_screen_misc_title" 
         android:fragment="com.extra.settings.fragments.LockScreenMisc"/>
 
+    <com.extra.settings.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_battery_info"
+        android:title="@string/lockscreen_battery_info_title"
+        android:summary="@string/lockscreen_battery_info_summary"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
