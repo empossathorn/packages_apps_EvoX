@@ -50,6 +50,12 @@
         android:summary="@string/screen_shot_shortcut_summary"
         android:defaultValue="true" />
 
+    <com.extra.settings.preferences.SystemSettingSwitchPreference
+        android:key="toast_icon"
+        android:title="@string/toast_icon_title"
+        android:summary="@string/toast_icon_summary"
+        android:defaultValue="false" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
