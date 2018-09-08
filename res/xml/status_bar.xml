@@ -16,13 +16,10 @@
             android:title="@string/status_bar_title">
 
     <Preference
-        android:key="stock_tuner"
-        android:title="@string/systemui_tuner_title"
-        android:summary="@string/systemui_tuner_summary">
-        <intent android:action="android.intent.action.MAIN"
-            android:targetPackage="com.android.systemui"
-            android:targetClass="com.android.systemui.DemoMode" />
-    </Preference>
+        android:key="clock_settings"
+        android:title="@string/clock_style_category_title"
+        android:summary="@string/clock_style_category_summary"
+        android:fragment="com.extra.settings.fragments.ClockSettings" />
 
     <PreferenceCategory
         android:key="misc_extensions_gestures_category"
