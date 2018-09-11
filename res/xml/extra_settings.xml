@@ -45,12 +45,12 @@
             android:fragment="com.extra.settings.fragments.LockScreen"
             android:icon="@drawable/ic_settings_lockscreen"/>
 
-        <!-- Volume Keys -->
+        <!-- Buttons -->
         <Preference
-            android:key="volume_keys_category"
-            android:title="@string/volume_keys_title" 
-            android:fragment="com.extra.settings.fragments.VolumeKeys"
-            android:icon="@drawable/ic_settings_rocker"/>
+            android:key="buttonsettings_category"
+            android:title="@string/button_title"
+            android:fragment="com.extra.settings.fragments.ButtonSettings"
+            android:icon="@drawable/ic_settings_buttons"/>
 
         <!-- Gestures -->
         <Preference
