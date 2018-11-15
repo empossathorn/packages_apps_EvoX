@@ -779,4 +779,7 @@
     <string name="navbar_tuner_title">Navbar buttons</string>
     <string name="navbar_tuner_summary">Customize the buttons displayed on Navbar</string>
 
+    <!-- Privacy guard -->
+    <string name="app_ops_settings_title">Privacy guard</string>
+
 </resources>
