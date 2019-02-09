@@ -15,15 +15,11 @@
             android:title="@string/quick_settings_title">
 
     <ListPreference
-         android:key="qs_tile_style"
-         android:title="@string/qs_tile_style_title"
-         android:persistent="false"
-         android:entries="@array/qs_selector_entries"
-         android:entryValues="@array/qs_selector_values" />
-
-    <PreferenceCategory
-        android:key="quick_settings_general_category"
-        android:title="@string/general_category">
+        android:key="qs_tile_style"
+        android:title="@string/qs_tile_style_title"
+        android:persistent="false"
+        android:entries="@array/qs_selector_entries"
+        android:entryValues="@array/qs_selector_values" />
 
     <com.extra.settings.preferences.SecureSettingSwitchPreference
         android:key="qs_show_brightness"

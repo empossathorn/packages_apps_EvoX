@@ -28,6 +28,12 @@
         android:summary="@string/three_finger_gesture_summary"
         android:defaultValue="false" />
 
+    <ListPreference
+        android:key="torch_power_button_gesture"
+        android:title="@string/torch_power_button_gesture_title"
+        android:entries="@array/torch_power_button_gesture_entries"
+        android:entryValues="@array/torch_power_button_gesture_values" />
+
     <com.extra.settings.preferences.SystemSettingSwitchPreference
         android:key="screen_record_shortcut"
         android:title="@string/screen_record_shortcut"
