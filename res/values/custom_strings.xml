@@ -16,7 +16,7 @@
     <string name="extra_settings_title">Evolution X</string>
 
     <!-- Categories -->
-    <string name="status_bar_title">Status bar</string>
+    <string name="status_bar_title">แถบสถานะ</string>
     <string name="quick_settings_title">Quick settings</string>
     <string name="navbar_title">Navigation bar</string>
     <string name="power_menu_title">Power menu</string>
