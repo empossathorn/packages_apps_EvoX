@@ -359,7 +359,7 @@
 
     <!-- Lock Clock Fonts -->
     <string name="lock_clock_font_title">Saat yazı tipi seçenekleri</string>
-    <string name="lock_clock_font_summary">Kilit ekranı saati widget'ının varsayılan yazı tipini değiştirme</string>
+    <string name="lock_clock_font_summary">Kilit ekranı saati widget\'ının varsayılan yazı tipini değiştirme</string>
     <string name="lock_clock_font_dialog_title">Kilit saati yazı tipini seçin</string>
     <string name="lock_clock_font_stock">Normal (default)</string>
     <string name="lock_clock_font_bold">Bold</string>
@@ -396,7 +396,7 @@
 
     <!-- Lock Date Fonts -->
     <string name="lock_date_font_title">Tarih yazı tipi seçenekleri</string>
-    <string name="lock_date_font_summary">Kilit ekranı tarih widget'ının varsayılan yazı tipini değiştirme</string>
+    <string name="lock_date_font_summary">Kilit ekranı tarih widget\'ının varsayılan yazı tipini değiştirme</string>
     <string name="lock_date_font_dialog_title">Kilit Ekran tarih yazı tipini seçin</string>
 
     <!-- Themes -->
@@ -407,7 +407,7 @@
     <string name="qs_panel_alpha_title">Şefaf</string>
     <string name="qs_panel_color_title">Renk</string>
     <string name="qs_bg_wall_title">Duvar kağıdı renklerini kullan</string>
-    <string name="qs_bg_wall_summary">QS arka plan rengini Duvar Kağıdı'ndan ayarla</string>
+    <string name="qs_bg_wall_summary">QS arka plan rengini Duvar Kağıdı\'ndan ayarla</string>
     <string name="qs_bg_use_fw">Varsayılan renkleri kullan</string>
     <string name="qs_bg_use_fw_summary">Harici tema motorları için özel hızlı ayar stillerini devre dışı bırak</string>
     <string name="qs_bg_accent_title">Accent renk kullan</string>
