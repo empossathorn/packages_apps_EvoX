@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- App Title -->
-  <string name="extra_settings_title">การตั้งค่า Evolution</string>
+  <string name="extra_settings_title">การตั้งค่า Evolution X</string>
   <!-- Categories -->
   <string name="status_bar_title">แถบสถานะ</string>
   <string name="quick_settings_title">ตั้งค่าด่วน</string>
@@ -55,7 +55,7 @@
   <string name="cat_powermenu_items">รายการเมนูเพาเวอร์</string>
   <string name="cat_volume_keys">ปุ่มปรับระดับเสียง</string>
   <string name="cat_misc_app">แอปที่เกี่ยวข้อง</string>
-  <string name="anim_general_category">การเคลื่อนโดยรวม</string>
+  <string name="anim_general_category">การเคลื่อนไหวโดยรวม</string>
   <string name="anim_system_category">ระบบที่เกี่ยวข้อง</string>
   <string name="misc_settings_cat_title">การตั้งค่าแอปที่เกี่ยวข้อง</string>
   <string name="general_system_stuff_preference">พฤติกรรมของระบบ</string>
@@ -264,7 +264,7 @@
   <string name="audio_panel_view_bt_sco_title">เสียงบลูทูธ</string>
   <!-- Volume Panel on Left -->
   <string name="volume_panel_category">แผงควบคุมระดับเสียง</string>
-  <string name="volume_panel_on_left_title">แผงควบคุมระดับเสียงด้านซ้าย</string>
+  <string name="volume_panel_on_left_title">แผงควบคุมระดับเสียงที่ด้านซ้าย</string>
   <string name="volume_panel_on_left_summary">เปลี่ยนแผงควบคุมระดับเสียงจากด้านขวาเป็นด้านซ้าย</string>
   <!-- Power Menu -->
   <string name="powermenu_screenshot">ภาพหน้าจอ</string>
@@ -365,20 +365,20 @@
   <string name="corner_radius">รัศมีมุมโค้งมน</string>
   <string name="content_padding">เลื่อนไอคอนบนแถบสถานะ</string>
   <string name="corner_fwvals">ปิดใช้งานมุมที่โค้งมน</string>
-  <string name="corner_fwvals_summary">สำหรับอุปกรณ์ที่มีมุมที่โค้งมนอยู่แล้ว</string>
+  <string name="corner_fwvals_summary">มีประโยชน์สำหรับอุปกรณ์ที่มีมุมที่โค้งมนอยู่แล้ว</string>
   <!-- Sensor block per-package -->
   <string name="sensor_block_title">บล็อกการเข้าถึงเซ็นเซอร์</string>
   <string name="sensor_block_summary">บล็อกการเข้าถึงเซ็นเซอร์สำหรับแอพบางตัวเพื่อประหยัดแบตเตอรี่</string>
   <!-- Volume Steps Fragment -->
-  <string name="volume_steps_fragment_title">ระดับเสียง</string>
-  <string name="volume_steps_summary">ปรับแต่งระดับเสียง</string>
-  <string name="volume_steps_alarm_title">ระดับเสียง: นาฬิกาปลุก</string>
-  <string name="volume_steps_dtmf_title">ระดับเสียง: แป้นตัวเลข</string>
-  <string name="volume_steps_music_title">ระดับเสียง: สื่อ</string>
-  <string name="volume_steps_notification_title">ระดับเสียง: การแจ้งเตือน</string>
-  <string name="volume_steps_ring_title">ระดับเสียง: Ringer</string>
-  <string name="volume_steps_system_title">ระดับเสียง: ระบบ</string>
-  <string name="volume_steps_voice_call_title">ระดับเสียง: การสนทนา</string>
+  <string name="volume_steps_fragment_title">ระดับการกดปุ่มเพิ่ม - ลดเสียง</string>
+  <string name="volume_steps_summary">ปรับแต่งระดับการกดปุ่มเพิ่ม - ลดเสียง</string>
+  <string name="volume_steps_alarm_title">ระดับการกด: นาฬิกาปลุก</string>
+  <string name="volume_steps_dtmf_title">ระดับการกด: แป้นตัวเลข</string>
+  <string name="volume_steps_music_title">ระดับการกด: สื่อ</string>
+  <string name="volume_steps_notification_title">ระดับการกด: การแจ้งเตือน</string>
+  <string name="volume_steps_ring_title">ระดับการกด: เสียงเรียกเข้า</string>
+  <string name="volume_steps_system_title">ระดับการกด: ระบบ</string>
+  <string name="volume_steps_voice_call_title">ระดับการกด: การสนทนา</string>
   <string name="volume_steps_reset">รีเซ็ต</string>
   <!-- Notification guts kill app button -->
   <string name="notification_guts_kill_app_button_title">ปุ่มล้างแอปพลิเคชั่น</string>
