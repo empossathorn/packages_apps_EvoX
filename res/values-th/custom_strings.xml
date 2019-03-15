@@ -446,7 +446,7 @@
      
   <!-- Notification guts kill app button -->
   <string name="notification_guts_kill_app_button_title">ปุ่มล้างแอปพลิเคชั่น</string>
-  <string name="notification_guts_kill_app_button_summary">แสดงปุ่มล้างแอปในการแจ้งเตือน\'s กดเมนูค้างไว้</string>
+  <string name="notification_guts_kill_app_button_summary">แสดงปุ่มล้างแอปในการแจ้งเตือน กดรายการแจ้งเตือนค้างไว้</string>
      
   <!-- Notification with screen on -->
   <string name="notification_sound_vib_screen_on_title">มีเสียงดังแจ้งเตือนหากเปิดหน้าจอ</string>
