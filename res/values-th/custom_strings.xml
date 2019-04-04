@@ -565,6 +565,19 @@
 	<string name="lockscreen_cover_filter_title">ฟิลเตอร์ภาพหน้าปกของสื่อบนหน้าจอล็อค</string>
 	<string name="lockscreen_cover_filter_none">ไม่มี</string>
 	<string name="lockscreen_cover_filter_grayscale">โทนสีเทา</string>
+	<string name="lockscreen_cover_filter_tint">Accent tinted</string>
 	<string name="lockscreen_cover_filter_blur">เบลอ</string>
+	<string name="lockscreen_cover_filter_grayblur">โทนสีเทาและเบลอ</string>
+	
+	<!-- Recents panel settings -->
+	<string name="show_clear_all_recents_button_title">ปุ่มล้างทั้งหมด</string>
+	<string name="show_clear_all_recents_button_summary">แสดงปุ่มล้างทั้งหมด</string>
+	<string name="recents_clear_all_location_title">ตำแหน่งของปุ่มล้างทั้งหมด</string>
+	<string name="recents_clear_all_location_top_right">ด้านบนขวา</string>
+	<string name="recents_clear_all_location_top_left">ด้านบนซ้าย</string>
+	<string name="recents_clear_all_location_top_center">ตรงกลางด้านบน</string>
+	<string name="recents_clear_all_location_bottom_right">ด้านล่างขวา</string>
+	<string name="recents_clear_all_location_bottom_left">ด้านล่างซ้าย</string>
+	<string name="recents_clear_all_location_bottom_center">ตรงกลางด้านล่าง</string>
 
 </resources>
