@@ -334,31 +334,31 @@
     <string name="allow_signature_fake_summary">Uygulamaların, farklı bir uygulama gibi davranarak güvenlik sistemlerini atlamasına izin ver</string>
 
     <!-- QS tile styles -->
-    <string name="qs_tile_style_title">QS döşeme stili</string>
-    <string name="qstile_default">Default</string>
-    <string name="qstile_circle_trim">Circle with trim</string>
-    <string name="qstile_dual_tone_circle">Dual-toned circle</string>
-    <string name="qstile_squircle_trim">Squircle with trim</string>
-    <string name="qstile_circle_gradient">Circle with Gradient</string>
-    <string name="qstile_wavey">Wavey</string>
-    <string name="qstile_circle_dualtone">Circle with Dual Tone</string>
-    <string name="qstile_pokesign">Pokesign</string>
+    <string name="qs_tile_style_title">Hızlı ayarlar kare stili</string>
+    <string name="qstile_default">Varsayılan</string>
+    <string name="qstile_circle_trim">Daire (Çerçeveli)</string>
+    <string name="qstile_dual_tone_circle">Çift tonlu daire</string>
+    <string name="qstile_squircle_trim">Yuvarlatılmış kare (Çerçeveli)</string>
+    <string name="qstile_circle_gradient">Daire (Gradyan)</string>
+    <string name="qstile_wavey">Dalgalı</string>
+    <string name="qstile_circle_dualtone">Çift tonlu daire (Çerçeveli)</string>
+    <string name="qstile_pokesign">Poke topu</string>
     <string name="qstile_ninja">Ninja</string>
-    <string name="qstile_dottedcircle">Dotted Circle</string>
+    <string name="qstile_dottedcircle">Noktalı daire</string>
     <string name="qstile_attemptmountain">An attempt of a mountain</string>
-    <string name="qstile_squaremedo">The Squaremedo</string>
-    <string name="qstile_oreo">Oreo Style</string>
-    <string name="qstile_oreo_circle_trim">Oreo (Circle Trim)</string>
-    <string name="qstile_oreo_squircle_trim">Oreo (Squircle Trim)</string>
-    <string name="qstile_inkdrop">Ink</string>
-    <string name="qstile_cookie">Cookie</string>
+    <string name="qstile_squaremedo">Çift kare</string>
+    <string name="qstile_oreo">Oreo</string>
+    <string name="qstile_oreo_circle_trim">Oreo (Çerçeveli daire)</string>
+    <string name="qstile_oreo_squircle_trim">Oreo (Çerçeveli - Yuvarlatılmış kare)</string>
+    <string name="qstile_inkdrop">Mürekkep</string>
+    <string name="qstile_cookie">Kurabiye</string>
     <string name="qstile_circleoutline">CircleOutline</string>
 
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Ekran kapalı iken güç tuşu ile feneri açma</string>
+    <string name="torch_power_button_gesture_title">Ekran kapalıyken el feneri</string>
     <string name="torch_power_button_gesture_none">Devre dışı</string>
-    <string name="torch_power_button_gesture_dt">El feneri değiştirmek için çift tıklama (tek dokunuşa küçük bir gecikme ekleyecektir)</string>
-    <string name="torch_power_button_gesture_lp">El feneri değiştirmek için uzun basın</string>
+    <string name="torch_power_button_gesture_dt">Güç tuşuna iki kez bas</string>
+    <string name="torch_power_button_gesture_lp">Güç tuşuna uzun bas</string>
 
      <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Parmak izi kilit</string>
@@ -410,15 +410,15 @@
     <string name="accent_color">Vurgu renkleri</string>
 
     <!-- QS themes -->
-    <string name="qs_themes_category_title">Hızlı Ayarlar renkleri</string>
+    <string name="qs_themes_category_title">Hızlı ayarlar temaları</string>
     <string name="qs_panel_alpha_title">Şefaf</string>
     <string name="qs_panel_color_title">Renk</string>
-    <string name="qs_bg_wall_title">Duvar kağıdı renklerini kullan</string>
-    <string name="qs_bg_wall_summary">QS arka plan rengini Duvar Kağıdı\'ndan ayarla</string>
-    <string name="qs_bg_use_fw">Varsayılan renkleri kullan</string>
-    <string name="qs_bg_use_fw_summary">Harici tema motorları için özel hızlı ayar stillerini devre dışı bırak</string>
-    <string name="qs_bg_accent_title">Accent renk kullan</string>
-    <string name="qs_bg_accent_summary">QS arka plan rengini Sistem Aksanından ayarla</string>
+    <string name="qs_bg_wall_title">Duvar kağıdı rengini kullan</string>
+    <string name="qs_bg_wall_summary">Hızlı ayarlar arka plan rengini duvar kağıdı ile ayarlar</string>
+    <string name="qs_bg_use_fw">Varsayılan renkleri sıfırla</string>
+    <string name="qs_bg_use_fw_summary">Harici tema motorları için özel Hızlı ayarlar stillerini devre dışı bırakın</string>
+    <string name="qs_bg_accent_title">Vurgu rengini kullan</string>
+    <string name="qs_bg_accent_summary">Hızlı ayarlar arka plan rengini sistem vurgu rengi ile ayarlar</string>
 
     <!-- Rounded corners -->
     <string name="corners_category">Köşeler</string>
@@ -470,7 +470,7 @@
 
     <!-- Recents panel -->
     <string name="recents_title">Son uygulamalar</string>
-    <string name="recents_summary">Position clear button and some immersive style</string>
+    <string name="recents_summary">Son kullanılanlar ekranı görünümünü değiştirme</string>
 
     <!-- Recents panel settings -->
     <string name="show_clear_all_recents_button_title">Tümünü temizleme tuşu</string>
@@ -661,5 +661,9 @@
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Gezinme çubuğu tuşları</string>
     <string name="navbar_tuner_summary">Gezinme çubuğu üzerinde görüntülenen tuşları özelleştirin</string>
+    
+    <!-- Privacy guard -->
+    <string name="app_ops_settings_title">Gizlilik Kontrolü</string>
+    <string name="app_ops_settings_summary">Uygulama izinlerini engelle</string>
 
 </resources>
