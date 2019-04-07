@@ -36,9 +36,12 @@
 	<string name="icons_category">ไอคอน</string>
 
 	<!-- Sub Categories -->
+	<string name="misc_title">เบ็ดเตล็ด</string>
 	<string name="lock_screen_ui_title">อินเตอร์เฟซ</string>
 	<string name="lock_screen_misc_title">อื่นๆ</string>
 	<string name="status_bar_battery_title">ไอคอนแบตเตอรี่</string>
+	<string name="stock_recents_title" >แผงล่าสุดแบบดั้งเดิม</string>
+	<string name="hide_apps_title" >ซ่อนแอป</string>
 
 	<!-- General strings -->
 	<string name="ok">โอเค</string>
@@ -47,6 +50,13 @@
 	<string name="save">บันทึก</string>
 	<string name="action_save">บันทึก</string>
 	<string name="action_cancel">ยกเลิก</string>
+	<string name="default_string">ค่าเริ่มต้น</string>
+	
+	<!-- Label for feature switch [CHAR LIMIT=30] -->
+    	<string name="switch_bar_on">เปิด</string>
+
+    	<!-- Label for feature switch [CHAR LIMIT=30] -->
+   	<string name="switch_bar_off">ปิด</string>
 
 	<!-- Color Picker -->
 	<string name="dialog_color_picker">ตัวเลือกสี</string>
@@ -143,7 +153,9 @@
 	<string name="show_network_traffic_down">รับข้อมูล</string>
 	<string name="show_network_traffic_all">ส่งและรับข้อมูล</string>
 	<string name="network_traffic_state_title">แสดงการรับ - ส่ง ข้อมูลบนแถบสถานะ</string>
-	<string name="network_traffic_autohide_threshold_title">ตัวบอกการรับ - ส่งข้อมูล จะถูกซ่อนอัตโนมัติเมื่อปริมาณการรับส่งไม่ถึงขีดจำกัดที่ตั้งไว้ (KB/s)</string>
+	<string name="network_traffic_autohide_threshold_title">ตัวบอกการรับ - ส่งข้อมูล\nจะถูกซ่อนอัตโนมัติเมื่อปริมาณการรับส่งไม่ถึงขีดจำกัดที่ตั้งไว้ (KB/s)</string>
+	<string name="network_traffic_hidearrow">ซ่อนลูกศร</string>
+	<string name="network_traffic_hidearrow_summary">ซ่อนลูกศรตัวบ่งบอกการรับ - ส่ง ข้อมูลอินเตอร์เน็ต</string>
 
 	<!-- Heads up -->
 	<string name="headsup_category">ตั้งค่า Heads-Up</string>
@@ -349,7 +361,7 @@
 
 	<!-- Fingerprint unlock keystore -->
 	<string name="fp_unlock_keystore_title">ปลดล็อคด้วยลายนิ้วมือ</string>
-	<string name="fp_unlock_keystore_summary">ปลดล็อคอุปกรณ์ด้วยลายนิ้วมือหลังจากรีบูตโดยไม่จำเป็นต้องใส่ PIN / รหัสผ่านหรือรูปแบบการปลดล็อค\หมายเหตุ: อุปกรณ์ของคุณอาจมีความเสี่ยง</string>
+	<string name="fp_unlock_keystore_summary">ปลดล็อคอุปกรณ์ด้วยลายนิ้วมือหลังจากรีบูตโดยไม่จำเป็นต้องใส่ PIN / รหัสผ่านหรือรูปแบบการปลดล็อค\nหมายเหตุ: อุปกรณ์ของคุณอาจมีความเสี่ยง</string>
 
 	<!-- Lock Clock Fonts -->
 	<string name="lock_clock_font_title">ตัวเลือกรูปแบบอักษรของนาฬิกา</string>
@@ -553,7 +565,9 @@
 	<string name="no_stat_because_reset_state">กดรีเซ็ตเพื่อเริ่มการรวบรวมข้อมูล time in state</string>
 	<string name="no_stat_because_reset_wakelock">กดรีเซ็ตเพื่อเริ่มการรวบรวมข้อมูล wakelock</string>
 	<string name="no_stat_because_plugged">โปรดถอดปลั๊กไฟเพื่อรับข้อมูล wakelock</string>
-	<string name="no_states_file_found">ไม่พบไฟล์ states! คุณแน่ใจหรือว่าโทรศัพท์ของคุณใช้งานร่วมกันได้ \n\nหากคุณใช้ ROM หรือเคอร์เนลแบบกำหนดเอง ลองติดต่อผู้พัฒนาเพื่อแจ้งให้เขาทราบว่าไฟล์ state นั้นไม่สามารถอ่านได้</string>
+	<string name="no_states_file_found">ไม่พบไฟล์ states! คุณแน่ใจหรือว่าโทรศัพท์ของคุณใช้งาน
+	ร่วมกันได้ \n\nหากคุณใช้ ROM หรือเคอร์เนลแบบกำหนดเอง ลอง
+	ติดต่อผู้พัฒนาเพื่อแจ้งให้เขาทราบว่าไฟล์ state นั้นไม่สามารถอ่านได้</string>
 	<string name="deep_sleep">"Deep Sleep"</string>
 	<string name="mt_refresh">รีเฟรช</string>
 	<string name="mt_share">แชร์</string>
@@ -565,6 +579,190 @@
 	<string name="lockscreen_cover_filter_title">ฟิลเตอร์ภาพหน้าปกของสื่อบนหน้าจอล็อค</string>
 	<string name="lockscreen_cover_filter_none">ไม่มี</string>
 	<string name="lockscreen_cover_filter_grayscale">โทนสีเทา</string>
+	<string name="lockscreen_cover_filter_tint">Accent tinted</string>
 	<string name="lockscreen_cover_filter_blur">เบลอ</string>
+	<string name="lockscreen_cover_filter_grayblur">โทนสีเทาและเบลอ</string>
+    
+	<!-- Recents panel -->
+	<string name="recents_title">แผงล่าสุด</string>
+	<string name="recents_summary">ตำแหน่งปุ่มล้างแอปและลักษณะบางอย่างที่ดื่มด่ำ</string>
+
+	<!-- Recents panel settings -->
+	<string name="show_clear_all_recents_button_title">ปุ่มล้างทั้งหมด</string>
+	<string name="show_clear_all_recents_button_summary">แสดงปุ่มล้างทั้งหมด</string>
+	<string name="recents_clear_all_location_title">ตำแหน่งของปุ่มล้างทั้งหมด</string>
+	<string name="recents_clear_all_location_top_right">ด้านบนขวา</string>
+	<string name="recents_clear_all_location_top_left">ด้านบนซ้าย</string>
+	<string name="recents_clear_all_location_top_center">ตรงกลางด้านบน</string>
+	<string name="recents_clear_all_location_bottom_right">ด้านล่างขวา</string>
+	<string name="recents_clear_all_location_bottom_left">ด้านล่างซ้าย</string>
+	<string name="recents_clear_all_location_bottom_center">ตรงกลางด้านล่าง</string>
+	
+	<!-- Hide Apps from Recents -->
+	<string name="hide_apps_from_recents_title">ซ่อนแอปจากแผงล่าสุด</string>
+	<string name="hide_from_recents_add_app">เพิ่มแอป</string>
+	<string name="hide_apps_from_recents_summary">เลือกแอปเพื่อซ่อนในแผงล่าสุด</string>
+	
+	<!-- Pie and Oreo recents -->
+	<string name="recents_component_type_title">รูปแบบแผงล่างสุด</string>
+	<string name="recents_quickstep">แบบรวดเร็ว</string>
+	<string name="recents_stock">แบบเดิม (Stock)</string>
+	<string name="recents_grid">ตาราง</string>
+	<string name="recents_go">แอนดรอยด์ โก (Android Go)</string>
+	
+	<!-- AOSP recents -->
+	<string name="aosp_first_time_title">AOSP แผงล่าสุด</string>
+	<string name="aosp_first_time_message">การตั้งค่าแผงล่าสุดแบบเต็มจะถูกแทนที่หากเปิดใช้งานเดสก์ท็อปที่ขยาย</string>
+	
+	<!-- Immersive recents -->
+	<string name="immersive_recents_title">มุมมองแผงล่าสุด</string>
+	<string name="immersive_recents_summary">เปลี่ยนมุมมองของหน้าจอแผงล่าสุด</string>
+	<string name="immersive_recents_dialog_title">เลือกมุมมองแผงล่าสุด</string>
+	<string name="immersive_recents_default">ค่าเริ่มต้น</string>
+	<string name="immersive_recents_fullscreen">เต็มจอ</string>
+	<string name="immersive_recents_statusbar">แถบสถานะเท่านั้น</string>
+	<string name="immersive_recents_navbar">แถบนำทางเท่านั้น</string>
+	
+	<!-- Recents Membar -->
+	<string name="systemui_recents_mem_display_title">แสดงแถบหน่วยความจำ</string>
+	<string name="systemui_recents_mem_display_summary">เปิดหรือปิดใช้งาน แถบแสดงหน่วยความจำชั่วคราว ในหน้าแอปล่าสุด</string>
+	
+	<!-- Clock and date immersive recents -->
+	<string name="recents_full_screen_clock_title">แสดงนาฬิกา</string>
+	<string name="recents_full_screen_clock_summary">แสดงนาฬิกาที่ด้านบนขณะที่ใช้มุมมองแผงล่าสุด</string>
+	<string name="recents_full_screen_date_title">แสดงวันที่</string>
+	<string name="recents_full_screen_date_summary">แสดงวันที่ที่ด้านบนในขณะที่ใช้มุมมองแผงล่าสุด</string>
+	
+	<!-- Recents styles -->
+	<string name="clear_recents_style">รูปแบบของปุ่ม</string>
+	<string name="fab_button_color">สีพื้นหลังของปุ่มล้างทั้งหมด</string>
+	<string name="kill_app_button_color">สีของปุ่ม Kill App</string>
+	<string name="mem_bar_color">แถบหน่วยความจำ</string>
+	<string name="recents_clock_color">สีของนาฬิกา</string>
+	<string name="recents_date_color">สีของวันที่</string>
+	<string name="recents_styles_1">รูปแบบ</string>
+	<string name="recents_colors">รูปแบบ</string>
+	<string name="recents_style_2">สี</string>
+	<string name="recents_style_3">ส่วนหัวมุมมองงาน</string>
+	<string name="pin_button_color">ปุ่มปักหมุดหน้าจอ</string>
+	<string name="mw_button_color">ปุ่มแยกหน้าจอ</string>
+	<string name="float_button_color">ปุ่มลอย</string>
+	<string name="tv_app_color">เติมไอคอนแอป (เติมไอคอนทั้งหมด)</string>
+	<string name="tv_app_text_color">ข้อความคำอธิบายแอป</string>
+	<string name="recent_styles">รูปแบบแผงล่าสุด</string>
+	<string name="recent_styles_summary">ปรับแต่งองค์ประกอบต่าง ๆ ในแผงล่าสุด</string>
+	<string name="mem_text_color">ข้อความแถบหน่วยความจำ</string>
+	<string name="clear_button_color">ล้างทั้งหมด</string>
+	<string name="clear_recents_style_enable">รูปแบบแผงล่าสุดที่กำหนดเอง</string>
+	<string name="clear_recents_style_enable_summary">เปิด / ปิดการใช้งานรูปแบบที่กำหนดเองของมุมมองแอพล่าสุด</string>
+	<string name="recents_rotate_fab">อนิเมชั่นปุ่มล้างแอป</string>
+	<string name="recents_rotate_fab_summary">เปิด / ปิด การใช้งานการหมุนของปุ่มล้างทั้งหมด</string>
+	<string name="recents_fab_vibrate">สั่นเมื่อกดปุ่มล้างทั้งหมด</string>
+	<string name="recents_fab_vibrate_summary">เปิด / ปิดการใช้งานการตอบรับแบบสัมผัส (สั่น) ของปุ่มล้างทั้งหมด</string>
+	<string name="fab_animation_style">ภาพเคลื่อนไหวปุ่มล้างแอป</string>
+	<string name="recents_fab_lp">เปิดใช้งานการกดแบบยาวบนปุ่มล้างแอป</string>
+	<string name="recents_fab_lp_summary">กดแบบยาวจะอัพเดตแถบหน่วยความจำ ถ้ามี</string>
+	<string name="recents_fab_lp_anim">อนิเมชั่นการกดปุ่มล้างแอปแบบยาวๆ</string>
+	<string name="clear_animation_style">อนิเมชั่นล้างทั้งหมด</string>
+	<string name="button1">ค่าเริ่มต้น</string>
+	<string name="button2">Square Checkbox</string>
+	<string name="button3">Graph</string>
+	<string name="button4">Vertical Lines 1</string>
+	<string name="button5">Vertical Lines 2</string>
+	<string name="button6">Clipboard</string>
+	<string name="button7">Paint</string>
+	<string name="button8">Horizontal Lines</string>
+	<string name="button9">Circular Checkbox </string>
+	<string name="button10">Swiping Delete</string>
+	<string name="button11">Zzzzz</string>
+	<string name="button12">Eye Close</string>
+	<string name="button13">Like Button</string>
+	<string name="button14">Swipe Cube</string>
+	<string name="button15">Bell</string>
+	<string name="button16">Arrow Lines Left</string>
+	<string name="button17">Layers Off</string>
+	<string name="button18">Arrow Lines Back</string>
+	<string name="button19">Layers</string>
+	<string name="button20">Archive</string>
+	<string name="button21">Database Plus</string>
+	<string name="button22">Contracting Arrows</string>
+	<string name="button23">Google</string>
+	<string name="button24">Database Minus</string>
+	<string name="button25">Sequential Cube</string>
+	<string name="button26">Timer</string>
+	<string name="button27">Android N</string>
+	<string name="button28">Android Stock</string>
+	<string name="animation0">Rotation </string>
+	<string name="animation1">Recents Exit</string>
+	<string name="animation2">Transluscent Exit </string>
+	<string name="animation3">Transluscent Exit Ribbon</string>
+	<string name="animation4">Toast Exit</string>
+	<string name="animation5">Slide Out Down </string>
+	<string name="animation6">Xylon Exit </string>
+	<string name="animation7">Honami Toast Exit</string>
+	<string name="animation8">Slide Out Right </string>
+	<string name="animation9">Toast Exit</string>
+	<string name="animation10">Fade Out Slow </string>
+	<string name="animation11">Slide Out Left</string>
+	<string name="animation12">Fade Out</string>
+	<string name="animation13">Fast Fade Out </string>
+	<string name="animation14">Slide Out Up </string>
+	<string name="animation15">Fast Rotation</string>
+	<string name="reset_message">รีเซ็ตรายการทั้งหมดเป็นค่าเริ่มต้นหรือไม่</string>
+	
+	<!-- Wakeup options -->
+	<string name="wakeup_when_plugged_unplugged_title">ปลุกอุปกรณ์เมื่อชาร์จ</string>
+	<string name="wakeup_when_plugged_unplugged_summary">ปลุกอุปกรณ์หากเสียบหรือถอดปลั๊กเครื่องชาร์จ</string>
+
+	<!-- Wakelock blocker -->
+	<string name="wakelock_blocker_title">บล็อก Wakelock</string>
+	<string name="wakelock_blocker_summary">บล็อกระบบ wakelocks</string>
+	<string name="wakelock_blocker_save">บันทึก</string>
+	<string name="wakelock_list_header">Wakelocks ที่เปิดใช้งานได้</string>
+	<string name="wakelock_blocker_reload">รีโหลด</string>
+
+	<!-- Alarm blocker -->
+	<string name="alarm_blocker_title">บล็อกสัญญาณเตือน</string>
+	<string name="alarm_blocker_summary">บล็อกการส่งสัญญาณเตือนขณะปิดหน้าจอ</string>
+	<string name="alarm_blocker_save">บันทึก</string>
+	<string name="alarm_list_header">สัญญาณเตือนที่เปิดใช้งานได้</string>
+	<string name="alarm_blocker_reload">รีโหลด</string>
+
+	<!-- Statusbar Clock -->
+	<string name="clock_style_category_title">การตั้งค่านาฬิกา</string>
+	<string name="clock_style_category_summary">ตั้งค่านาฬิกาในแถบสถานะ</string>
+	<string name="status_bar_clock_title">การตั้งค่านาฬิกา</string>
+	<string name="status_bar_clock_show">แสดงนาฬิกาและวันที่</string>
+	<string name="status_bar_clock_style_title">รูปแบบนาฬิกา</string>
+	<string name="status_bar_clock_style_right">ขวา</string>
+	<string name="status_bar_clock_style_center">ตรงกลาง</string>
+	<string name="status_bar_clock_style_left">ซ้าย</string>
+	<string name="status_bar_am_pm_title">รูปแบบ AM/PM</string>
+	<string name="status_bar_am_pm_info">เปิดใช้งานนาฬิกาแบบ 24 ชั่วโมง</string>
+	<string name="status_bar_am_pm_normal">ปกติ</string>
+	<string name="status_bar_am_pm_small">เล็ก</string>
+	<string name="status_bar_am_pm_hidden">ซ่อน (ค่าเริ่มต้น)</string>
+	<string name="clock_seconds_display">แสดงวินาที</string>
+	<string name="clock_date_display">วันที่</string>
+	<string name="clock_date_display_summary">แสดงวันที่กำหนดเองก่อนนาฬิกา</string>
+	<string name="clock_date_display_none">ไม่แสดง</string>
+	<string name="clock_date_display_small">ขนาดตัวอักษรเล็ก</string>
+	<string name="clock_date_display_normal">ขนาดตัวอักษรปกติ</string>
+	<string name="clock_date_style">รูปแบบวันที่</string>
+	<string name="clock_date_style_normal">ปกติ</string>
+	<string name="clock_date_style_lowercase">ตัวพิมพ์เล็ก</string>
+	<string name="clock_date_style_uppercase">ตัวพิมพ์ใหญ่</string>
+	<string name="clock_date_format_custom">รูปแบบวันที่ ที่กำหนดเอง</string>
+	<string name="clock_date_format">รูปแบบวันที่</string>
+	<string name="clock_date_string_edittext_title">ต้องอยู่ในรูปแบบวันที่ เช่น MM/dd/yy</string>
+	<string name="clock_date_string_edittext_summary">ป้อนรูปแบบ</string>
+
+	<!-- Brightness control -->
+	<string name="status_bar_toggle_brightness">การควบคุมความสว่าง</string>
+	<string name="status_bar_toggle_brightness_summary">ปรับความสว่างโดยเลื่อนไปตามแถบสถานะ</string>
+
+	<!-- USB configuration -->
+	<string name="usb_default_config_title">การกำหนดค่า USB</string>
+	<string name="usb_default_config_summary">เลือกรูปแบบการเชื่อมต่อเริ่มต้นเมื่อเชื่อมต่ออุปกรณ์ผ่าน USB</string>
 
 </resources>
