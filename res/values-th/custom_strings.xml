@@ -18,6 +18,7 @@
 	<!-- Categories -->
 	<string name="status_bar_title">แถบสถานะ</string>
 	<string name="quick_settings_title">แถบการตั้งค่าด่วน</string>
+	<string name="navigation_title">นำทาง</string>
 	<string name="navbar_title">แถบนำทาง</string>
 	<string name="power_menu_title">ปุ่มเมนูเพาเวอร์</string>
 	<string name="volume_keys_title">คีย์เพิ่มลดเสียง</string>
@@ -764,5 +765,21 @@
 	<!-- USB configuration -->
 	<string name="usb_default_config_title">การกำหนดค่า USB</string>
 	<string name="usb_default_config_summary">เลือกรูปแบบการเชื่อมต่อเริ่มต้นเมื่อเชื่อมต่ออุปกรณ์ผ่าน USB</string>
+	
+	<!-- Statusbar Tuner -->
+	<string name="statusbar_items_title">รายการแถบสถานะ</string>
+	<string name="statusbar_items_summary">สลับการแสดงไอคอนในแถบสถานะ</string>
+
+	<!-- Lockscreen icons -->
+	<string name="lockscreen_tuner_title">ปุ่มลัดบนหน้าจอล็อค</string>
+	<string name="lockscreen_tuner_summary">เปลี่ยนแปลงปุ่มลัดด้านล่าง ซ้าย / ขวา</string>
+	
+	<!-- Navbar tuner -->
+	<string name="navbar_tuner_title">ปุ่มนำทาง</string>
+	<string name="navbar_tuner_summary">ปรับแต่งปุ่มที่แสดงบนแถบนำทาง</string>
+	
+	<!-- Privacy guard -->
+	<string name="app_ops_settings_title">ปกป้องความเป็นส่วนตัว</string>
+	<string name="app_ops_settings_summary">บล็อกการอนุญาตของแอพพลิเคชั่น</string>
 
 </resources>
