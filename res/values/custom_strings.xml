@@ -781,5 +781,6 @@
 
     <!-- Privacy guard -->
     <string name="app_ops_settings_title">Privacy guard</string>
+    <string name="app_ops_settings_summary">Block app permissions</string>
 
 </resources>
