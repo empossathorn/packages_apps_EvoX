@@ -718,9 +718,9 @@
     <string name="status_bar_carrier_font_style_summary">%1$s</string>
     <string name="status_bar_carrier_color">สีป้ายชื่อ</string>
     <!-- Tiles animation style -->
-    <string name="qs_tile_animation_category">อนิเมชั่นของแผงตั้งค่าด่วน</string>
-    <string name="qs_tile_animation_style_title">รูปแบบอนิเมชั่นของแผงตั้งค่าด่วน</string>
-    <string name="qs_tile_animation_duration_title">ระยะเวลาภาพอนิเมชั่นของแผงตั้งค่าด่วน</string>
+    <string name="qs_tile_animation_category">อนิเมชั่นของไทล์การตั้งค่าด่วน</string>
+    <string name="qs_tile_animation_style_title">รูปแบบอนิเมชั่นของไทล์การตั้งค่าด่วน</string>
+    <string name="qs_tile_animation_duration_title">ระยะเวลาภาพอนิเมชั่นของไทล์การตั้งค่าด่วน</string>
     <string name="qs_tile_animation_style_off">ไม่มีการเคลื่อนไหว</string>
     <string name="qs_tile_animation_style_flip">ดีด (Flip)</string>
     <string name="qs_tile_animation_style_rotate">หมุน (Rotate)</string>
@@ -730,7 +730,7 @@
     <string name="qs_set_animation_style">%1$s</string>
     <string name="qs_set_animation_duration">%1$s</string>
     <!-- Tiles animation interpolator -->
-    <string name="qs_tile_animation_interpolator_title">กำหนดรูปแบบอนิเมชั่นแผงตั้งค่าด่วน</string>
+    <string name="qs_tile_animation_interpolator_title">กำหนดรูปแบบอนิเมชั่นของไทล์การตั้งค่าด่วน</string>
     <string name="qs_tile_animation_interpolator_linearInterpolator">คงที่</string>
     <string name="qs_tile_animation_interpolator_accelerateInterpolator">เร่งความเร็ว</string>
     <string name="qs_tile_animation_interpolator_decelerateInterpolator">ชะลอความเร็ว</string>
