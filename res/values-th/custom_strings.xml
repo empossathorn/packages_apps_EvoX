@@ -740,4 +740,10 @@
     <string name="qs_tile_animation_interpolator_anticipateInterpolator">ถอยหลังแล้วไปข้างหน้า</string>
     <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">ถอยหลังแล้วไปข้างหน้าแบบนุ่มนวล</string>
     <string name="qs_set_animation_interpolator">%1$s</string>
+    <!-- Blink flashlight for incoming calls -->
+    <string name="flashlight_on_call_title">ไฟฉายกระพริบเมื่อมีสายเรียกเข้า</string>
+    <string name="flashlight_on_call_disabled">ปิดใช้งาน</string>
+    <string name="flashlight_on_call_not_dnd">ไฟฉายกระพริบในโหมด สั่น เท่านั้น</string>
+    <string name="flashlight_on_call_dnd">ไฟฉายกระพริบในโหมด ห้ามรบกวน เท่านั้น</string>
+    <string name="flashlight_on_call_always">ไฟฉายกระพริบเสมอ</string>
 </resources>
