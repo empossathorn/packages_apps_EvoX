@@ -660,6 +660,7 @@
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">ปุ่มนำทาง</string>
     <string name="navbar_tuner_summary">ปรับแต่งปุ่มที่แสดงบนแถบนำทาง</string>
+    <string name="button_settings_summary">เปิดใช้งานแถบนำทาง, โหมดมือเดียว, ปรับแต่งปุ่มฮาร์ดแวร์</string>
     <!-- StatusBar -->
     <string name="statusbar_settings_category">แถบสถานะ</string>
     <string name="use_old_mobiletype_title">ใช้สไตล์มือถือแบบเก่า</string>
