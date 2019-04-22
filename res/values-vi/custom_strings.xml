@@ -27,12 +27,12 @@
     <string name="theme_main">Chủ đề</string>
     <string name="theme_main_summary">Tô màu lên!</string>
     <!-- General app strings -->
-    <string name="general_category">General</string>
+    <string name="general_category">Chung</string>
     <string name="gestures_category">Cử chỉ</string>
     <string name="music_category">Nhạc</string>
     <string name="security_category">Bảo mật</string>
     <string name="hardware_category">Phần cứng</string>
-    <string name="icons_category">Icons</string>
+    <string name="icons_category">Biểu tượng</string>
     <!-- Sub Categories -->
     <string name="misc_title">Khác</string>
     <string name="lock_screen_ui_title">Giao diện</string>
@@ -42,16 +42,16 @@
     <string name="hide_apps_title">Ẩn ứng dụng</string>
     <!-- General strings -->
     <string name="ok">OK</string>
-    <string name="reset">Reset</string>
+    <string name="reset">Đặt lại</string>
     <string name="cancel">Hủy</string>
     <string name="save">Lưu</string>
     <string name="action_save">Lưu</string>
     <string name="action_cancel">Hủy</string>
     <string name="default_string">Mặc định</string>
     <!-- Label for feature switch [CHAR LIMIT=30] -->
-    <string name="switch_bar_on">On</string>
+    <string name="switch_bar_on">Bật</string>
     <!-- Label for feature switch [CHAR LIMIT=30] -->
-    <string name="switch_bar_off">Off</string>
+    <string name="switch_bar_off">Tắt</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Chọn màu</string>
     <string name="press_color_to_apply">Bấm vào màu bên dưới để áp dụng</string>
@@ -64,56 +64,56 @@
     <string name="system_colors">Màu sắc</string>
     <!-- Preferences Categories -->
     <string name="cat_general_ui">Tinh chỉnh giao diện người dùng</string>
-    <string name="cat_general_system">System related tweaks</string>
-    <string name="cat_powermenu_items">Power menu items</string>
-    <string name="cat_volume_keys">Volume keys</string>
-    <string name="cat_misc_app">App related</string>
-    <string name="anim_general_category">Overall Animations</string>
-    <string name="anim_system_category">System related</string>
-    <string name="misc_settings_cat_title">Settings app related</string>
-    <string name="general_system_stuff_preference">System Behaviour</string>
+    <string name="cat_general_system">Các tinh chỉnh hệ thống</string>
+    <string name="cat_powermenu_items">Các mục trong menu nguồn</string>
+    <string name="cat_volume_keys">Phím âm lượng</string>
+    <string name="cat_misc_app">Ứng dụng</string>
+    <string name="anim_general_category">Hoạt ảnh Tổng thể</string>
+    <string name="anim_system_category">Hệ thống</string>
+    <string name="misc_settings_cat_title">Ứng dụng cài đặt</string>
+    <string name="general_system_stuff_preference">Hành vi Hệ thống</string>
     <!-- Power Menu -->
-    <string name="powermenu_reboot_title">Restart</string>
-    <string name="powermenu_advanced_reboot_title">Advanced restart</string>
-    <string name="powermenu_advanced_reboot_summary">When unlocked, include options in the power menu for restarting into recovery or bootloader</string>
-    <string name="powermenu_advanced_restart_summary">Enables the advanced restart menu for other restarting options</string>
-    <string name="powermenu_lockdown_title">Lockdown</string>
-    <string name="powermenu_screenshot_title">Screenshot</string>
+    <string name="powermenu_reboot_title">Khởi động lại</string>
+    <string name="powermenu_advanced_reboot_title">Khởi động lại nâng cao</string>
+    <string name="powermenu_advanced_reboot_summary">Khi thiết bị được mở khoá, bao gồm các tùy chọn khởi động lại vào recovery hoặc bootloader trong menu nguồn</string>
+    <string name="powermenu_advanced_restart_summary">Bật menu khởi động lại nâng cao</string>
+    <string name="powermenu_lockdown_title">Khoá máy</string>
+    <string name="powermenu_screenshot_title">Chụp ảnh màn hình</string>
     <!-- Quick QS Pulldown -->
-    <string name="status_bar_quick_qs_pulldown">Quick QS pulldown</string>
-    <string name="quick_pulldown_none">Disabled</string>
-    <string name="quick_pulldown_right">Pulldown statusbar from right side</string>
-    <string name="quick_pulldown_left">Pulldown statusbar from left side</string>
+    <string name="status_bar_quick_qs_pulldown">Mở nhanh Bảng Cài đặt</string>
+    <string name="quick_pulldown_none">Tắt</string>
+    <string name="quick_pulldown_right">Kéo từ cạnh phải thanh trạng thái</string>
+    <string name="quick_pulldown_left">Kéo từ cạnh trái thanh trạng thái</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">Điều khiển phát nhạc</string>
+    <string name="volume_button_music_control_summary">Khi màn hình đang tắt, nhấn giữ phím Âm lượng sẽ chuyển sang bài hát tiếp theo</string>
     <!-- Lockscreen dt2s -->
-    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep</string>
-    <string name="double_tap_sleep_lockscreen_sumary">Double tap anywhere on the lockscreen to put the phone to sleep</string>
+    <string name="double_tap_sleep_lockscreen_title">Chạm đúp để tắt màn hình</string>
+    <string name="double_tap_sleep_lockscreen_sumary">Chạm đúp vào bất kì đâu trên màn hình khoá để tắt màn hình</string>
     <!-- Lockscreen cover art -->
-    <string name="media_art_title">Media cover art</string>
-    <string name="media_art_summary">Enable media cover art on the lockscreen</string>
+    <string name="media_art_title">Ảnh bìa phương tiện</string>
+    <string name="media_art_summary">Hiển thị ảnh bìa phương tiện trên màn hình khoá</string>
     <!-- less boring heads up -->
-    <string name="less_boring_heads_up_title">Less boring heads up</string>
-    <string name="less_boring_heads_up_summary">Show heads up only for dialer or messaging app</string>
+    <string name="less_boring_heads_up_title">Thông báo nổi ít mệt mỏi</string>
+    <string name="less_boring_heads_up_summary">Chỉ hiện thông báo nổi từ ứng dụng Điện thoại và Tin nhắn</string>
     <!-- Battery Styles -->
-    <string name="battery_style_title">Battery icon style</string>
-    <string name="battery_style_summary">Change the style of the status bar battery</string>
-    <string name="battery_style_port">Portrait</string>
-    <string name="battery_style_circle">Circle</string>
-    <string name="battery_style_dotted_circle">Dotted circle</string>
-    <string name="battery_style_big_circle">Big circle</string>
-    <string name="battery_style_big_dotted_circle">Big dotted circle</string>
-    <string name="battery_style_text">Text (set Show battery percentage to Outside)</string>
-    <string name="battery_style_hidden">Hidden</string>
-    <string name="battery_percent_hidden">Hidden</string>
-    <string name="show_battery_percent_title">Show battery percentage</string>
-    <string name="show_battery_percent_summary">Show battery level percentage near the icon</string>
-    <string name="battery_style_category_title">Battery level</string>
-    <string name="battery_percent_outside">Outside</string>
-    <string name="battery_percent_inside">Inside</string>
+    <string name="battery_style_title">Kiểu biểu tượng pin</string>
+    <string name="battery_style_summary">Thay đổi kiểu biểu tượng pin trên thanh trạng thái</string>
+    <string name="battery_style_port">Dọc</string>
+    <string name="battery_style_circle">Vòng tròn</string>
+    <string name="battery_style_dotted_circle">Vòng tròn nét đứt</string>
+    <string name="battery_style_big_circle">Vòng tròn lớn</string>
+    <string name="battery_style_big_dotted_circle">Vòng tròn nét đứt lớn</string>
+    <string name="battery_style_text">Văn bản (chọn Hiển thị phần trăm pin bên ngoài)</string>
+    <string name="battery_style_hidden">Ẩn</string>
+    <string name="battery_percent_hidden">Ẩn</string>
+    <string name="show_battery_percent_title">Hiển thị phần trăm pin</string>
+    <string name="show_battery_percent_summary">Hiển thị phần trăm pin hiện tại bên cạnh biểu tượng pin</string>
+    <string name="battery_style_category_title">Mức pin</string>
+    <string name="battery_percent_outside">Bên ngoài</string>
+    <string name="battery_percent_inside">Bên trong</string>
     <!-- SeekBar -->
-    <string name="seekbar_no_default_value">No default value set</string>
+    <string name="seekbar_no_default_value">Không có giá trị mặc định nào</string>
     <string name="seekbar_default_value_set">Value set to default of <xliff:g id="number">%d</xliff:g></string>
     <string name="seekbar_default_value_already_set">Default value is already set</string>
     <string name="seekbar_default_string">Default</string>
@@ -347,6 +347,7 @@
     <string name="lock_clock_font_neoneon">Neoneon</string>
     <string name="lock_clock_font_themeable">Themeable (or VCR OSD Mono)</string>
     <string name="lock_clock_font_samsung">Shamshung</string>
+    <string name="lock_clock_font_sourcesanspro">Source Sans Pro</string>
     <!-- Lock Date Fonts -->
     <string name="lock_date_font_title">Date font options</string>
     <string name="lock_date_font_summary">Change the default font of the lockscreen date widget</string>

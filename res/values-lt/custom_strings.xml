@@ -66,7 +66,7 @@
     <string name="cat_general_ui">UI tweaks</string>
     <string name="cat_general_system">System related tweaks</string>
     <string name="cat_powermenu_items">Power menu items</string>
-    <string name="cat_volume_keys">Volume keys</string>
+    <string name="cat_volume_keys">Garsumo mygtukai</string>
     <string name="cat_misc_app">App related</string>
     <string name="anim_general_category">Overall Animations</string>
     <string name="anim_system_category">System related</string>
@@ -76,7 +76,7 @@
     <string name="powermenu_reboot_title">Restart</string>
     <string name="powermenu_advanced_reboot_title">Advanced restart</string>
     <string name="powermenu_advanced_reboot_summary">When unlocked, include options in the power menu for restarting into recovery or bootloader</string>
-    <string name="powermenu_advanced_restart_summary">Enables the advanced restart menu for other restarting options</string>
+    <string name="powermenu_advanced_restart_summary">Įjungia išplėstinį paleidimo meniu, kuriame yra dagiau paleisties iš naujo pasirinkčių</string>
     <string name="powermenu_lockdown_title">Lockdown</string>
     <string name="powermenu_screenshot_title">Screenshot</string>
     <!-- Quick QS Pulldown -->
@@ -85,8 +85,8 @@
     <string name="quick_pulldown_right">Išskleisti būsenos juostą iš dešinės pusės</string>
     <string name="quick_pulldown_left">Išskleisti būsenos juostą iš kairės pusės</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">Atkūrimo valdymas</string>
+    <string name="volume_button_music_control_summary">Kai ekranas išjungtas, ilgai nuspauskite garsumo mygtukus, kad perjungtumėte muzikos takelius</string>
     <!-- Lockscreen dt2s -->
     <string name="double_tap_sleep_lockscreen_title">Dvigubas bakstelėjimas užmigimui</string>
     <string name="double_tap_sleep_lockscreen_sumary">Norėdami užmigdyti telefoną dukart bakstelėkite bet kurioje užrakinto ekrano vietoje</string>
@@ -121,8 +121,8 @@
     <string name="fprint_sucess_vib_title">Pirštų atspaudų atpažinimo vibracija</string>
     <string name="fprint_sucess_vib_summary">Vibruoja po sėkmingo pirštų atspaudų atpažinimo</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume rocker wake</string>
-    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+    <string name="volume_rocker_wake_title">Pabusti garsumo mygtukais</string>
+    <string name="volume_rocker_wake_summary">Paspaudus garsumo mygtukus, įrenginys bus pažadintas</string>
     <!-- Double tap-to-sleep -->
     <string name="double_tap_to_sleep_title">Būsenos juosta</string>
     <string name="double_tap_to_sleep_summary">Dukart bakstelėkite būsenos juostą, kad įrenginys užmigtų</string>
@@ -171,8 +171,8 @@
     <string name="heads_up_snooze_15min">15 minutes</string>
     <string name="heads_up_snooze_20min">20 minutes</string>
     <!-- Power menu on secure lockscreen -->
-    <string name="powermenu_lockscreen_title">Lockscreen visibility</string>
-    <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
+    <string name="powermenu_lockscreen_title">Matomumas užrakinimo ekrane</string>
+    <string name="powermenu_lockscreen_summary">Įjungia galimybę rodyti ir naudoti maitinimo meniu dialogą užrakinimo ekrane</string>
     <!-- Roaming indicator icon -->
     <string name="roaming_indicator_icon_title">Tarptinklinio ryšio indikatorius</string>
     <string name="roaming_indicator_icon_summary">Veikiant tarptinkliniui ryšiui, signalo piktogramoje rodomas indikatorius</string>
@@ -257,8 +257,8 @@
     <string name="gesture_action_timeout_title">Swipe trigger timeout</string>
     <string name="gesture_action_timeout_summary">Timeout before the gesture action is started</string>
     <!-- The volume key answer -->
-    <string name="volume_answer_call_title">Volume keys answer</string>
-    <string name="volume_answer_call_summary">Answer the call when volume keys pressed</string>
+    <string name="volume_answer_call_title">Atsiliepti garsumo mygtukais</string>
+    <string name="volume_answer_call_summary">Atsiliepti į skambutį, paspaudus garsumo mygtukus</string>
     <!-- ScreenRecord Shortcut -->
     <string name="screen_record_shortcut">Screenrecord Shortcut</string>
     <string name="screen_record_shortcut_summary">Power + Volume Up triggers Screenrecord when enabled</string>
@@ -270,15 +270,15 @@
     <!-- Text shown for the description of the lockdown option -->
     <string name="lockdown_settings_summary">Display power button option that turns off Smart Lock, fingerprint unlocking, and notifications on the lock screen</string>
     <!-- Power Menu -->
-    <string name="powermenu_screenshot">Screenshot</string>
-    <string name="powermenu_power">Power</string>
-    <string name="powermenu_restart">Restart</string>
-    <string name="powermenu_restart_recovery">Advanced restart</string>
-    <string name="powermenu_airplane">Airplane</string>
-    <string name="powermenu_settings">Settings</string>
+    <string name="powermenu_screenshot">Ekrano kopija</string>
+    <string name="powermenu_power">Maitinimas</string>
+    <string name="powermenu_restart">Paleisti iš naujo</string>
+    <string name="powermenu_restart_recovery">Išplėstinė paleistis iš naujo</string>
+    <string name="powermenu_airplane">Lėktuvo rėžimas</string>
+    <string name="powermenu_settings">Nustatymai</string>
     <string name="powermenu_lockdown">Lock Down</string>
     <string name="powermenu_soundpanel">Sound Panel</string>
-    <string name="powermenu_users">Users</string>
+    <string name="powermenu_users">Vartotojai</string>
     <string name="powermenu_logout">Logout</string>
     <!-- Allow fake signature -->
     <string name="allow_signature_fake">Allow signature spoofing</string>
@@ -347,6 +347,7 @@
     <string name="lock_clock_font_neoneon">Neoneon</string>
     <string name="lock_clock_font_themeable">Themeable (or VCR OSD Mono)</string>
     <string name="lock_clock_font_samsung">Shamshung</string>
+    <string name="lock_clock_font_sourcesanspro">Source Sans Pro</string>
     <!-- Lock Date Fonts -->
     <string name="lock_date_font_title">Datos šrifto pasirinktis</string>
     <string name="lock_date_font_summary">Keisti numatytąjį šriftą užrakinimo ekrano datos valdikliui</string>
@@ -370,19 +371,19 @@
     <string name="corner_fwvals">Naudoti struktūros reikšmes</string>
     <string name="corner_fwvals_summary">Naudinga, jei įrenginio kampai tikrai suapvalinti</string>
     <!-- Sensor block per-package -->
-    <string name="sensor_block_title">Sensor block per-package</string>
-    <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery</string>
+    <string name="sensor_block_title">Jutiklio blokavimas per paketą</string>
+    <string name="sensor_block_summary">Blokuoti prieigą prie tam tiktų jutiklių kai kurioms programoms, kad baterija būtų taupoma</string>
     <!-- Volume Steps Fragment -->
-    <string name="volume_steps_fragment_title">Volume steps</string>
-    <string name="volume_steps_summary">Customize volume steps</string>
-    <string name="volume_steps_alarm_title">Volume steps: Alarm</string>
-    <string name="volume_steps_dtmf_title">Volume steps: DTMF</string>
-    <string name="volume_steps_music_title">Volume steps: Media</string>
-    <string name="volume_steps_notification_title">Volume steps: Notification</string>
-    <string name="volume_steps_ring_title">Volume steps: Ringer</string>
-    <string name="volume_steps_system_title">Volume steps: System</string>
-    <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
-    <string name="volume_steps_reset">Reset</string>
+    <string name="volume_steps_fragment_title">Garsumo žingsniai</string>
+    <string name="volume_steps_summary">Prisitaikykite garsumo žingsnius</string>
+    <string name="volume_steps_alarm_title">Garsumo žingsniai: Pavojaus signalas</string>
+    <string name="volume_steps_dtmf_title">Garsumo žingsniai: DTMF</string>
+    <string name="volume_steps_music_title">Garsumo žingsniai: Medijų</string>
+    <string name="volume_steps_notification_title">Garsumo žingsniai: Pranešimas</string>
+    <string name="volume_steps_ring_title">Garsumo žingsniai: Skambutis</string>
+    <string name="volume_steps_system_title">Garsumo žingsniai: Sistema</string>
+    <string name="volume_steps_voice_call_title">Garsumo žingsniai: Balso skambutis</string>
+    <string name="volume_steps_reset">Atstatyti</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Kill app button</string>
     <string name="notification_guts_kill_app_button_summary">Show a kill app button in the notification\'s longpress menu</string>
