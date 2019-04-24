@@ -65,7 +65,7 @@ public class LockScreen extends SettingsPreferenceFragment implements Preference
                         boolean enabled) {
                     final ArrayList<SearchIndexableResource> result = new ArrayList<>();
                      final SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.heads_up_settings;
+                    sir.xmlResId = R.xml.lock_screen;
                     result.add(sir);
                     return result;
                 }
