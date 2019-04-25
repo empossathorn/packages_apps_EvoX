@@ -725,4 +725,7 @@
     <string name="flashlight_on_call_not_dnd">ไฟฉายกระพริบในโหมด สั่น เท่านั้น</string>
     <string name="flashlight_on_call_dnd">ไฟฉายกระพริบในโหมด ห้ามรบกวน เท่านั้น</string>
     <string name="flashlight_on_call_always">ไฟฉายกระพริบเสมอ</string>
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">ข้อมูลการชาร์จบนหน้าจอล็อค</string>
+    <string name="lockscreen_battery_info_summary">แสดงข้อมูลเวลาการชาร์จที่เหลืออยู่ในปัจจุบัน , แรงดันไฟฟ้าและอุณหภูมิของแบตเตอรี่บนหน้าจอล็อคในขณะที่ชาร์จ</string>
 </resources>
