@@ -70,7 +70,7 @@
     <string name="cat_misc_app">App correlata</string>
     <string name="anim_general_category">Animazioni generali</string>
     <string name="anim_system_category">Sistema correlato</string>
-    <string name="misc_settings_cat_title">Settings app related</string>
+    <string name="misc_settings_cat_title">Relativo alle impostazioni</string>
     <string name="general_system_stuff_preference">Comportamento di Sistema</string>
     <!-- Power Menu -->
     <string name="powermenu_reboot_title">Riavvio</string>
@@ -80,7 +80,7 @@
     <string name="powermenu_lockdown_title">Blocco</string>
     <string name="powermenu_screenshot_title">Screenshot</string>
     <!-- Quick QS Pulldown -->
-    <string name="status_bar_quick_qs_pulldown">Quick QS pulldown</string>
+    <string name="status_bar_quick_qs_pulldown">Discesa rapida dei QS</string>
     <string name="quick_pulldown_none">Disabilitato</string>
     <string name="quick_pulldown_right">Pulldown statusbar dal lato destro</string>
     <string name="quick_pulldown_left">Pulldown statusbar dal lato sinitro</string>
@@ -146,7 +146,7 @@
     <string name="add_heads_up_package">Aggiungi applicazione</string>
     <string name="add_heads_up_stoplist_summary">Disabilita le notifiche heads up in queste applicazioni</string>
     <string name="add_heads_up_blacklist_summary">Disabilita le notifiche heads up da queste applicazioni</string>
-    <string name="heads_up_stoplist_title">Stoplist</string>
+    <string name="heads_up_stoplist_title">Liste bloccate</string>
     <string name="heads_up_blacklist_title">Lista nera</string>
     <string name="profile_choose_app">Scegli l\'app</string>
     <string name="dialog_delete_title">Cancella</string>
@@ -161,10 +161,10 @@
     <string name="heads_up_time_out_8sec">8 secondi</string>
     <string name="heads_up_time_out_10sec">10 secondi</string>
     <!-- Heads up snooze -->
-    <string name="heads_up_snooze_title">Snooze timer</string>
-    <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
-    <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
-    <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
+    <string name="heads_up_snooze_title">Posticipo timer</string>
+    <string name="heads_up_snooze_summary_one_minute">Scorri verso l\'alto sulle notifiche per posticipare le heads up dell\'applicazione per un minuto</string>
+    <string name="heads_up_snooze_summary">Scorri verso l\'alto sulle notifiche per posticipare le notifiche fluttuanti dall\'applicazione per <xliff:g id="number">%d</xliff:g> minuti</string>
+    <string name="heads_up_snooze_disabled_summary">Timer di posticipo disattivato</string>
     <string name="heads_up_snooze_1min">1 minuto</string>
     <string name="heads_up_snooze_5min">5 minuti</string>
     <string name="heads_up_snooze_10min">10 minuti</string>
@@ -175,7 +175,7 @@
     <string name="powermenu_lockscreen_summary">Attiva la possibiltità di mostrare e usare il menù di accensione mentre si è nella lockscreen</string>
     <!-- Roaming indicator icon -->
     <string name="roaming_indicator_icon_title">Indicatore roaming</string>
-    <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
+    <string name="roaming_indicator_icon_summary">Mostra l\'indicatore di roaming nell\'icona del segnale quando si è in modalità roaming</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Icona 4G</string>
     <string name="show_fourg_icon_summary">Mostra 4G invece che LTE</string>
@@ -183,54 +183,54 @@
     <string name="volte_icon_title">Icona VoLTE </string>
     <string name="volte_icon_summary">Mostra l\'icona del VoLTE (Necessita di un riavvio per avere effetto)</string>
     <!-- Data disabled icon -->
-    <string name="data_disabled_icon_title">Show data disabled icon</string>
+    <string name="data_disabled_icon_title">Mostra icona dati disabilitati</string>
     <string name="data_disabled_icon_summary">Mostra la x quando la connessione dati è spenta</string>
     <!--3-Finger screenshot-->
     <string name="three_finger_gesture">Gesture a tre dita</string>
     <string name="three_finger_gesture_summary">Fai uno swipe con tre dita per fare uno screenshot</string>
     <!-- Lockscreen icons -->
-    <string name="hide_lockscreen_items_title">Lockscreen items</string>
+    <string name="hide_lockscreen_items_title">Elementi nella schermata di blocco</string>
     <!-- Lockscreen items -->
     <string name="lockscreen_clock_title">Widget orologio</string>
     <string name="lockscreen_clock_summary">Mostra il widget orologio nella lockscreen</string>
-    <string name="lockscreen_info_title">Items underneath the clock</string>
+    <string name="lockscreen_info_title">Elementi sotto l\'orologio</string>
     <string name="lockscreen_info_summary">Mostra la data, il meteo, alarms e zen nella lockscreen</string>
     <!-- Lockscreen clock styles -->
     <string name="lockscreen_clock_styles_category">Stili della lockscreen</string>
     <string name="lockscreen_clock_selection_title">Stile orologio</string>
-    <string name="lockscreen_clock_selection_digital">Default</string>
-    <string name="lockscreen_clock_selection_digital_bold">Digital (bold)</string>
-    <string name="lockscreen_clock_selection_analog">Analog</string>
+    <string name="lockscreen_clock_selection_digital">Predefinito</string>
+    <string name="lockscreen_clock_selection_digital_bold">Digitale (grassetto)</string>
+    <string name="lockscreen_clock_selection_analog">Analogico</string>
     <string name="lockscreen_clock_selection_sammy">Sammy</string>
-    <string name="lockscreen_clock_selection_sammy_bold">Sammy (bold)</string>
-    <string name="lockscreen_clock_selection_sammy_accent">Sammy with accent</string>
-    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy with accent (alt)</string>
-    <string name="lockscreen_clock_selection_shishu_nerves">Shishu Nerves</string>
-    <string name="lockscreen_clock_selection_gradient_btlglogo">Gradient clock (with bootleg logo)</string>
-    <string name="lockscreen_clock_selection_gradient_shishu">Gradient clock (with shishu logo)</string>
-    <string name="lockscreen_clock_selection_gradient_full">Full gradient clock</string>
-    <string name="lockscreen_clock_selection_gradient_likeqs">Monochrome gradient clock</string>
-    <string name="lockscreen_clock_selection_text">Android Q Text Clock</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (grassetto)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy colore accentato</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy colore accentato (alt)</string>
+    <string name="lockscreen_clock_selection_shishu_nerves">Shishu</string>
+    <string name="lockscreen_clock_selection_gradient_btlglogo">Orologio Gradiente (con logo di bootleg)</string>
+    <string name="lockscreen_clock_selection_gradient_shishu">Orologio Gradiente (con logo shishu)</string>
+    <string name="lockscreen_clock_selection_gradient_full">Orologio con sfumatura colorata</string>
+    <string name="lockscreen_clock_selection_gradient_likeqs">Orologio sfumato monocromatico</string>
+    <string name="lockscreen_clock_selection_text">Orologio con testo stile Android Q</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Vibrazione in chiamata</string>
     <string name="incall_vibrate_connect_title">Vibra alla connessione</string>
-    <string name="incall_vibrate_connect_summary">Enable to vibrate after call connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_call_wait_summary">Enable to vibrate while call is on waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
-    <string name="incall_vibrate_disconnect_summary">Enable to vibrate after call disconnect</string>
+    <string name="incall_vibrate_connect_summary">Attiva per la vibrazione quando connessi alla chiamata</string>
+    <string name="incall_vibrate_call_wait_title">Vibra quando la chiamata è in attesa</string>
+    <string name="incall_vibrate_call_wait_summary">Vibra quando la chiamata è in attesa</string>
+    <string name="incall_vibrate_disconnect_title">Vibra alla chiusura</string>
+    <string name="incall_vibrate_disconnect_summary">Attiva per vibrare quando si disconnette la chiamata</string>
     <!-- Lockscreen visualizer -->
-    <string name="lockscreen_visualizer_title">Lockscreen visualizer</string>
-    <string name="lockscreen_visualizer_summary">Displays a live design on lockscreen while music is playing</string>
+    <string name="lockscreen_visualizer_title">Visualizzatore musicale nella schermata di blocco</string>
+    <string name="lockscreen_visualizer_summary">Mostra un visualizzatore grafico in tempo reale mentre la musica è in riproduzione</string>
     <!-- Ambient visualizer -->
-    <string name="ambient_visualizer_title">Show LS visualizer on Ambient Display</string>
-    <string name="ambient_visualizer_summary">Shows the visualization bars also on ambient display (but less opaque)</string>
+    <string name="ambient_visualizer_title">Mostra visualizzatore audio in Ambient Display</string>
+    <string name="ambient_visualizer_summary">Mostra il visualizzatore audio anche in ambient display (semitrasparente)</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_brightness_position_bottom_title">Brightness slider on bottom</string>
-    <string name="qs_brightness_position_bottom_summary">Show a brightness slider on bottom quick settings</string>
+    <string name="qs_brightness_position_bottom_title">Cursore della luminosità in basso</string>
+    <string name="qs_brightness_position_bottom_summary">Mostra il cursore della luminosità nella parte inferiore del pannello delle impostazioni rapide</string>
     <!-- QuickSettings haptic feedback -->
-    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-    <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
+    <string name="quick_settings_vibrate_title">Vibra al tocco</string>
+    <string name="quick_settings_vibrate_summary">Vibra al tocco dei tile QS</string>
     <!-- SystemUI Tuner -->
     <string name="systemui_tuner_title">SystemUI Tuner</string>
     <string name="systemui_tuner_summary">Experimental SystemUI Tweaks</string>
@@ -726,4 +726,7 @@
     <string name="flashlight_on_call_not_dnd">Blink flashlight only in ringer mode</string>
     <string name="flashlight_on_call_dnd">Blink flashlight only in DND mode</string>
     <string name="flashlight_on_call_always">Always blink flashlight</string>
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
+    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
 </resources>
