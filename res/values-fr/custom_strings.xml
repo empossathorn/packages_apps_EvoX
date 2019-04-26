@@ -16,18 +16,18 @@
     <string name="extra_settings_title">Evolution X</string>
     <!-- Categories -->
     <string name="status_bar_title">Status bar</string>
-    <string name="quick_settings_title">Quick settings</string>
+    <string name="quick_settings_title">Paramètres rapides</string>
     <string name="navigation_title">Navigation</string>
-    <string name="navbar_title">Navigation bar</string>
+    <string name="navbar_title">Barre de navigation</string>
     <string name="power_menu_title">Power menu</string>
     <string name="volume_keys_title">Volume keys</string>
     <string name="lock_screen_title">Lock screen</string>
     <string name="notification_settings_title">Notifications</string>
-    <string name="general_tweaks_title">General tweaks</string>
-    <string name="theme_main">Themes</string>
-    <string name="theme_main_summary">Color it up!</string>
+    <string name="general_tweaks_title">Réglages généraux</string>
+    <string name="theme_main">Thèmes</string>
+    <string name="theme_main_summary">Couleurz-le !</string>
     <!-- General app strings -->
-    <string name="general_category">General</string>
+    <string name="general_category">Général</string>
     <string name="gestures_category">Gestures</string>
     <string name="music_category">Music</string>
     <string name="security_category">Security</string>
@@ -726,4 +726,7 @@
     <string name="flashlight_on_call_not_dnd">Blink flashlight only in ringer mode</string>
     <string name="flashlight_on_call_dnd">Blink flashlight only in DND mode</string>
     <string name="flashlight_on_call_always">Always blink flashlight</string>
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
+    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
 </resources>
