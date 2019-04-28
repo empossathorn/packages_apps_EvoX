@@ -27,19 +27,19 @@
         android:fragment="com.android.settings.gestures.GestureSettings"
         settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
 
-        <com.extra.settings.preferences.SystemSettingSwitchPreference
+        <com.evo.settings.preferences.SystemSettingSwitchPreference
             android:key="three_finger_gesture"
             android:title="@string/three_finger_gesture"
             android:summary="@string/three_finger_gesture_summary"
             android:defaultValue="false" />
 
-        <com.extra.settings.preferences.SystemSettingSwitchPreference
+        <com.evo.settings.preferences.SystemSettingSwitchPreference
             android:key="use_bottom_gesture_navigation"
             android:title="@string/use_bottom_gesture_title"
             android:summary="@string/use_bottom_gesture_summary"
             android:defaultValue="false" />
 
-        <com.extra.settings.preferences.CustomSeekBarPreference
+        <com.evo.settings.preferences.CustomSeekBarPreference
             android:key="gesture_swipe_length"
             android:title="@string/gesture_swipe_length_title"
             android:summary="@string/gesture_swipe_length_summary"
@@ -47,7 +47,7 @@
             settings:units="px"
             android:dependency="use_bottom_gesture_navigation" />
 
-        <com.extra.settings.preferences.CustomSeekBarPreference
+        <com.evo.settings.preferences.CustomSeekBarPreference
             android:key="gesture_swipe_timeout"
             android:title="@string/gesture_action_timeout_title"
             android:summary="@string/gesture_action_timeout_summary"

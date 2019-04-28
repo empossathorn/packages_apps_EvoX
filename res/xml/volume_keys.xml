@@ -17,24 +17,24 @@
 
     <Preference
         android:key="vol_steps"
-        android:fragment="com.extra.settings.fragments.VolumeStepsFragment"
+        android:fragment="com.evo.settings.fragments.VolumeStepsFragment"
         android:title="@string/volume_steps_fragment_title"
         android:summary="@string/volume_steps_summary" />
 
     <!-- volume keys music control when screen off -->
-    <com.extra.settings.preferences.SystemSettingSwitchPreference
+    <com.evo.settings.preferences.SystemSettingSwitchPreference
         android:key="volume_button_music_control"
         android:title="@string/volume_button_music_control_title"
         android:summary="@string/volume_button_music_control_summary"
         android:defaultValue="false"/>
 
-    <com.extra.settings.preferences.SystemSettingSwitchPreference
+    <com.evo.settings.preferences.SystemSettingSwitchPreference
         android:key="volume_rocker_wake"
         android:summary="@string/volume_rocker_wake_summary"
         android:title="@string/volume_rocker_wake_title"
         android:defaultValue="false" />
 
-    <com.extra.settings.preferences.SystemSettingSwitchPreference
+    <com.evo.settings.preferences.SystemSettingSwitchPreference
         android:key="call_volume_answer"
         android:title="@string/volume_answer_call_title"
         android:summary="@string/volume_answer_call_summary"

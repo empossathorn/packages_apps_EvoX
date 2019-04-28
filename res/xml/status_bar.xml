@@ -19,25 +19,25 @@
         android:key="clock_settings"
         android:title="@string/clock_style_category_title"
         android:summary="@string/clock_style_category_summary"
-        android:fragment="com.extra.settings.fragments.ClockSettings" />
+        android:fragment="com.evo.settings.fragments.ClockSettings" />
 
     <Preference
         android:key="carrierlabel_settings"
         android:title="@string/carrier_label_category_title"
 	android:summary="@string/carrier_label_category_summary"
-        android:fragment="com.extra.settings.fragments.CarrierLabelSettings" />
+        android:fragment="com.evo.settings.fragments.CarrierLabelSettings" />
 
     <PreferenceCategory
         android:key="misc_extensions_gestures_category"
         android:title="@string/gestures_category">
 
-    <com.extra.settings.preferences.SystemSettingSwitchPreference
+    <com.evo.settings.preferences.SystemSettingSwitchPreference
         android:key="double_tap_sleep_gesture"
         android:title="@string/double_tap_to_sleep_title"
         android:summary="@string/double_tap_to_sleep_summary"
         android:defaultValue="false" />
 
-    <com.extra.settings.preferences.SystemSettingSwitchPreference
+    <com.evo.settings.preferences.SystemSettingSwitchPreference
         android:key="status_bar_brightness_control"
         android:title="@string/status_bar_toggle_brightness"
         android:summary="@string/status_bar_toggle_brightness_summary"
@@ -62,45 +62,45 @@
             android:key="status_bar_battery_category"
             android:title="@string/battery_style_title"
             android:summary="@string/battery_style_summary"
-            android:fragment="com.extra.settings.fragments.StatusBarBattery"/>
+            android:fragment="com.evo.settings.fragments.StatusBarBattery"/>
 
         <Preference
             android:title="@string/traffic_title"
             android:key="traffic"
             android:summary="@string/network_traffic_state_title"
-            android:fragment="com.extra.settings.fragments.Traffic"/>
+            android:fragment="com.evo.settings.fragments.Traffic"/>
 
-        <com.extra.settings.preferences.SystemSettingSwitchPreference
+        <com.evo.settings.preferences.SystemSettingSwitchPreference
             android:key="bluetooth_show_battery"
             android:title="@string/bluetooth_battery_title"
             android:summary="@string/bluetooth_battery_summary"
             android:defaultValue="false" />
 
-        <com.extra.settings.preferences.SystemSettingSwitchPreference
+        <com.evo.settings.preferences.SystemSettingSwitchPreference
             android:key="roaming_indicator_icon"
             android:title="@string/roaming_indicator_icon_title"
             android:summary="@string/roaming_indicator_icon_summary"
             android:defaultValue="true"/>
 
-        <com.extra.settings.preferences.SystemSettingSwitchPreference
+        <com.evo.settings.preferences.SystemSettingSwitchPreference
             android:key="show_fourg_icon"
             android:title="@string/show_fourg_icon_title"
             android:summary="@string/show_fourg_icon_summary"
             android:defaultValue="false"/>
 
-        <com.extra.settings.preferences.SystemSettingSwitchPreference
+        <com.evo.settings.preferences.SystemSettingSwitchPreference
             android:key="volte_icon"
             android:title="@string/volte_icon_title"
             android:summary="@string/volte_icon_summary"
             android:defaultValue="true"/>
 
-        <com.extra.settings.preferences.SystemSettingSwitchPreference
+        <com.evo.settings.preferences.SystemSettingSwitchPreference
             android:key="use_old_mobiletype"
             android:title="@string/use_old_mobiletype_title"
             android:summary="@string/use_old_mobiletype_summary"
             android:defaultValue="false" />
 
-        <com.extra.settings.preferences.SystemSettingSwitchPreference
+        <com.evo.settings.preferences.SystemSettingSwitchPreference
             android:key="data_disabled_icon"
             android:title="@string/data_disabled_icon_title"
             android:summary="@string/data_disabled_icon_summary"

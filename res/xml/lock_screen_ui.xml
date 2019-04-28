@@ -20,13 +20,13 @@
         android:title="@string/music_category" >
 
         <!-- Lockscreen media art toggle -->
-        <com.extra.settings.preferences.SystemSettingSwitchPreference
+        <com.evo.settings.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_media_metadata"
             android:title="@string/media_art_title"
             android:summary="@string/media_art_summary"
             android:defaultValue="true" />
 
-        <com.extra.settings.preferences.SystemSettingListPreference
+        <com.evo.settings.preferences.SystemSettingListPreference
             android:key="lockscreen_album_art_filter"
             android:title="@string/lockscreen_cover_filter_title"
             android:entries="@array/lockscreen_cover_filter_entries"
@@ -34,13 +34,13 @@
             android:dependency="lockscreen_media_metadata"
             android:defaultValue="3" />
 
-        <com.extra.settings.preferences.SecureSettingSwitchPreference
+        <com.evo.settings.preferences.SecureSettingSwitchPreference
             android:key="lockscreen_visualizer"
             android:title="@string/lockscreen_visualizer_title"
             android:summary="@string/lockscreen_visualizer_summary"
             android:defaultValue="false"/>
 
-        <com.extra.settings.preferences.SecureSettingSwitchPreference
+        <com.evo.settings.preferences.SecureSettingSwitchPreference
             android:key="ambient_visualizer"
             android:title="@string/ambient_visualizer_title"
             android:summary="@string/ambient_visualizer_summary"
@@ -60,13 +60,13 @@
                 android:targetClass="com.android.systemui.tuner.LockscreenActivity" />
     </Preference>
 
-    <com.extra.settings.preferences.SystemSettingSwitchPreference   
+    <com.evo.settings.preferences.SystemSettingSwitchPreference   
         android:key="lockscreen_info"
         android:title="@string/lockscreen_info_title"
         android:summary="@string/lockscreen_info_summary"
         android:defaultValue="true" />
 
-    <com.extra.settings.preferences.SystemSettingSwitchPreference   
+    <com.evo.settings.preferences.SystemSettingSwitchPreference   
         android:key="lockscreen_clock"
         android:title="@string/lockscreen_clock_title"
         android:summary="@string/lockscreen_clock_summary"
@@ -78,7 +78,7 @@
         android:title="@string/lockscreen_clock_styles_category"
         android:key="lockscreen_style_cat">
 
-    <com.extra.settings.preferences.SystemSettingListPreference
+    <com.evo.settings.preferences.SystemSettingListPreference
         android:key="lockscreen_clock_selection"
         android:title="@string/lockscreen_clock_selection_title"
         android:entries="@array/lockscreen_clock_selection_entries"

@@ -15,49 +15,49 @@
             xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
             android:title="@string/power_menu_title">
 
-    <com.extra.settings.preferences.SystemSettingSwitchPreference
+    <com.evo.settings.preferences.SystemSettingSwitchPreference
         android:key="powermenu_power"
         android:title="@string/powermenu_power"
         android:defaultValue="true" />
 
-    <com.extra.settings.preferences.SystemSettingSwitchPreference
+    <com.evo.settings.preferences.SystemSettingSwitchPreference
         android:key="powermenu_restart"
         android:title="@string/powermenu_restart"
         android:defaultValue="true" />
 
-    <com.extra.settings.preferences.SystemSettingSwitchPreference
+    <com.evo.settings.preferences.SystemSettingSwitchPreference
         android:key="powermenu_restart_recovery"
         android:title="@string/powermenu_restart_recovery"
         android:summary="@string/powermenu_advanced_restart_summary"
         android:defaultValue="true" />
 
-    <com.extra.settings.preferences.SystemSettingSwitchPreference
+    <com.evo.settings.preferences.SystemSettingSwitchPreference
         android:key="powermenu_screenshot"
         android:title="@string/powermenu_screenshot"
         android:defaultValue="true" />
 
-    <com.extra.settings.preferences.SystemSettingSwitchPreference
+    <com.evo.settings.preferences.SystemSettingSwitchPreference
         android:key="powermenu_airplane"
         android:title="@string/powermenu_airplane"
         android:defaultValue="false" />
 
-    <com.extra.settings.preferences.SystemSettingSwitchPreference
+    <com.evo.settings.preferences.SystemSettingSwitchPreference
         android:key="powermenu_settings"
         android:title="@string/powermenu_settings"
         android:defaultValue="false" />
 
-    <com.extra.settings.preferences.SystemSettingSwitchPreference
+    <com.evo.settings.preferences.SystemSettingSwitchPreference
         android:key="powermenu_lockdown"
         android:title="@string/powermenu_lockdown"
         android:summary="@string/lockdown_settings_summary"
         android:defaultValue="false" />
 
-    <com.extra.settings.preferences.SystemSettingSwitchPreference
+    <com.evo.settings.preferences.SystemSettingSwitchPreference
         android:key="powermenu_users"
         android:title="@string/powermenu_users"
         android:defaultValue="false" />
 
-    <com.extra.settings.preferences.SystemSettingSwitchPreference
+    <com.evo.settings.preferences.SystemSettingSwitchPreference
         android:key="powermenu_lockscreen"
         android:title="@string/powermenu_lockscreen_title"
         android:summary="@string/powermenu_lockscreen_summary"   
